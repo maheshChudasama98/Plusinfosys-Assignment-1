@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>form elements</title>
+	<style type="text/css">
+		* { padding:0 ; margin:0 }
+		.header { padding: 20px;background-color: cornsilk; box-shadow: 0px 2px 5px;}
+		form { margin-top:50px }
+		table { width:50% ; margin-left:25%;  }
+		input[type = text]{ width:95% ;height: 25px ;  }
+		select { width:200px ; height:30px }
+		input[type = number] ,input[type = email],input[type = tel],input[type = submit],input[type = reset] { width:200px ; height:30px }
+		table,td,th {border:  solid 1px;padding: 20px; border-collapse:  collapse;}
+	</style>
+</head>
+<body>
+
+<form>
+	<table>
+		
+		<tr>
+			<th  colspan="2"> <h2> Job Details </h2> </th>
+		</tr>
+		
+		<tr>
+			<td>
+				<label for="jobTitle"> Job Title: </label>
+			</td>
+			<td>
+				<input type="text" id="jobTitle" name="jobTitle"/>
+			</td>
+		</tr>
+		
+		<tr>
+			<td>
+				<label for="companyName" >Company Name : </label>
+			</td>
+			<td>
+				<input type="text" id="companyName" placeholder="Plusinfosys" />
+			</td>
+		</tr>
+	
+		<tr>
+			<td>
+				<label for="contactNumber"> Contact Number :  </label>
+			</td>
+			<td>
+				<input type="tel"  id="contactNumber" maxlength="10"  placeholder="99999 88888" />
+			</td>
+		</tr>
+	
+		<tr>
+			<td>
+				<label for="email"> Email </label>
+			</td>
+			<td>
+				<input type="email"  id="email" placeholder="XYZ@gamil.com" />
+			</td>
+		</tr>
+	
+		<tr>
+			<td>
+				<label for="gender"> Gender </label>
+			</td>
+			<td>
+				<input type="radio" name="gender" id="Male">
+				<label for="Male"> Male</label>
+
+
+				<input type="radio" name="gender" id="Female">
+				<label for="Female"> Famle</label>
+				
+				<input type="radio" name="gender" id="others">
+				<label for="others"> Other</label>
+			</td>
+		</tr>
+	
+		<tr>
+			<td>
+				<label for="workStatus"> Work Status </label>
+			</td>
+			<td>
+				<input type="checkbox" name="workStatus" id="fullTime">
+				<label for="fullTime"> Full Time</label>
+
+
+				<input type="checkbox" name="workStatus" id="partTime">
+				<label for="partTime"> Part Time</label>
+				
+				<input type="checkbox" name="workStatus" id="others">
+				<label for="others"> Other</label>
+			</td>
+		</tr>
+	
+		<tr>
+			<td>
+				<label for="salary"> Salary </label>
+			</td>
+			<td>
+				<input type="number"  id="salary" />
+			</td>
+		</tr>
+	
+		<tr>
+			<td>
+				<label for="location"> Location </label>
+			</td>
+			<td>
+				<select name="location" id="location"> 
+					<option value="Rajkot"> Rajkot</option>
+					<option value="Ahmedabad"> Ahmedabad</option>
+					<option value="Surat"> Surat</option>
+					<option value="Porbandar"> Porbandar</option>
+					<option value="Jamnagar"> Jamnagar</option>
+
+				</select>
+			</td>
+		</tr>
+	
+		<tr>
+			<td>
+				<label for="Description">Description</label>
+			</td>
+			<td>
+				<textarea style="width : 400px ; height: 70px;" ></textarea>
+			</td>
+			
+		</tr>
+	
+	
+		<tr>
+			<td colspan="2" style="text-align: center;">
+				<input type="submit">
+				<input type="reset">
+			</td>
+			
+		</tr>
+</table>
+</form>
+</body>
+</html>
