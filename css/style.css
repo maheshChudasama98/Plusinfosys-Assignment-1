@@ -1,0 +1,93 @@
+/* 
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Pacifico', cursive;*/
+*{ padding: 0 ;margin: 0; font-family: 'Josefin Sans', sans-serif; }
+
+
+#care  { color: #feb800;  animation-name: care  5s}
+#life:hover { color: #feb800; }
+#care:hover { color: #000; }
+
+.color { color: #feb800; }
+/* head */
+.head { background-color: white; position: absolute; width: 96.4%; padding: 15px 25px; text-transform: uppercase;  
+        font-family: 'Josefin Sans', sans-serif; box-shadow: 0px 1px 5px;}
+.logo { padding-left: 20px }
+.head span{ font-size:40px }
+.menu { float: right; }
+.head h1 { display:inline-block; float:left; }
+.menu ul { list-style-type: none;}
+.menu li {  float: right;  font-size: 15px; padding: 15px 35px 0px 0px;}
+.menu a { text-decoration:none; color:black; }
+.menu a:hover  {  text-decoration: none;color: #feb800; transition: 1s ;}
+
+
+/* footer */
+
+#contact    { margin-top: 20px }
+.footer { background-color: black; color: white;  } 
+.footer-rol { display: flex;  width: 80% ; margin:0 10% ; margin-top: 100px; padding: 100px 2% }
+.footer-col { width: 25%; font-weight:200 }
+.footer-rol h3 { text-transform: uppercase;font-weight: 400 ;margin-bottom:20px ;color:#feb800; }
+.footer-rol ul { list-style-type: none; }
+.footer-rol li { line-height: 30px }
+.footer-rol li:hover { line-height: 30px ;color:  #0b9e92; text-decoration: underline; transition:  0.2s}
+.footer-rol span {color:  #0b9e92}
+
+
+/**/
+
+
+/* social media */
+.social-media {
+    width: 80%;
+    margin: 0 10%;
+    padding: 15px 0;
+}
+.social-media span { width:70% ; padding: 0 382px;
+    font-weight: 100;
+    text-align: center;
+}
+
+#hr {
+    height: 1px;
+    margin:  15px 0;
+    background-color:  #feb800;
+}
+
+
+/*question box*/
+
+.question{
+    margin: 50px 0;
+    text-align: center;
+    height: 200px;
+    background-color:#feb800 ;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.question h1{ color:white; padding: 80px 0}
+.question span{ color:black; }
+
+
+/**/
+
+.box{ 
+    background-image:url("../img/back1.jpg"); 
+    background-repeat:no-repeat;
+    background-position-y: -232px;
+    background-size:cover; 
+}
+
+.box-back{
+    height: 500px ;
+    background-color:#feb800d4;
+    display: flex;
+
+}
+.box-top {     
+    color: white;
+    font-size: 80px;
+    margin: 255px auto;
+    margin-bottom: 0;
+}

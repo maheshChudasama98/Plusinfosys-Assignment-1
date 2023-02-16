@@ -1,0 +1,85 @@
+#services-box{ 
+    background-image:url("../img/back1.jpg");
+    background-position-y: -250PX; 
+    background-repeat:no-repeat;
+    background-size:cover; }
+
+#services-back{
+    height: 500px ;
+    background-color:#feb800d9;
+    display: flex;
+
+}
+#services {     
+    color: white;
+    font-size: 80px;
+    margin: 250px auto;
+    margin-bottom: 0;
+}
+
+.rol1{
+    
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+
+}
+.card1{
+    margin-top:100px ;
+}
+
+.col1{
+
+    width: 75%;
+    margin:4%;
+    height: 400px;
+    background-size: cover;
+    border: solid 2px #feb800;
+
+}
+.col1 i{
+    float: left;
+    font-size: 30px;
+    padding: 0 5px;
+}
+.col1 img {
+    width: 100%;
+}
+.col1 span{
+    font-size: 13px;
+    padding: px 0;
+}
+
+.col1 div {
+    
+    background-color: #feb800d9;
+    margin: 333px 0;
+    padding: 16px;
+}
+.id1 {
+    background-image: url("../img/doctors/doctor1.jpg");
+}
+.id2 {
+    background-image:url("../img/doctors/doctor2.jpg");
+}
+.id3 {
+    background-image:url("../img/doctors/doctor3.jpg");
+}
+.id4 {
+    background-image:url("../img/doctors/doctor4.jpg");
+}
+.id5 {
+    background-image:url("../img/doctors/doctor5.jpg");
+}
+.id6 {
+    background-image:url("../img/doctors/doctor6.jpg");
+}
+.id7 {
+    background-image:url("../img/doctors/doctor7.jpg");
+}
+.id8 {
+    background-image:url("../img/doctors/doctor8.jpg");
+}
+.id9 {
+    background-image:url("../img/doctors/doctor9.jpg");
+}
